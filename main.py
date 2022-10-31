@@ -37,7 +37,7 @@ guess =int(input(" What is your guess?: "))
 while guess != x:
 #give user one more random guess
   guess =int(input("Sorry, try again:"))
-  #cogratulatory message printed for user if x (random number) matches their guess
+  #congratulatory message printed for user if x (random number) matches their guess
   if x == guess:
     print("Congratulations! You guessed the correct number!")
 #statement printed if guess is higher than 20
